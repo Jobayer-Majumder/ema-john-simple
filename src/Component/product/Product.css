@@ -1,0 +1,33 @@
+.product-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    border: 1px solid lightgray;
+    /* background: lightgray; */
+}
+.img-area img {
+    width: 180px;
+}
+.details-area{
+    margin-left: 50px;
+}
+.details-area h4{
+    color: blue;
+    font-weight: normal;
+}
+.details-area h5{
+    font-weight: normal;
+}
+button{
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: hsl(43, 85%, 62%);
+}
+button:hover{
+    background: hsl(43, 95%, 50%);
+}
